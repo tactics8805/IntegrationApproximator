@@ -1,6 +1,6 @@
 # Integration by Tech Algorithm
 
-Small utility to approximate definite integrals provided as LaTeX strings using the Trapezoidal, Midpoint and Simpson's numerical rules.
+Small utility to approximate definite integrals provided as LaTeX strings using the Trapezoidal, Midpoint and Simpson's numerical rules, along with their respective errors (deviations from the exact solution).
 
 ## Requirements
 - Python 3.11 (or compatible 3.11.x)
@@ -53,3 +53,4 @@ python -c "import importlib.util; spec=importlib.util.spec_from_file_location('i
 
 ## License
 This repository contains no license information by default. Add a license file if needed.
+
