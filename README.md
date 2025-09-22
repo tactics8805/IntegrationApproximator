@@ -51,6 +51,5 @@ python -m pip install --upgrade antlr4-python3-runtime==4.11
 python -c "import importlib.util; spec=importlib.util.spec_from_file_location('integration', 'Integration_script.py'); m=importlib.util.module_from_spec(spec); spec.loader.exec_module(m); print('Imported OK')"
 ```
 
-## License
-This repository contains no license information by default. Add a license file if needed.
+
 
